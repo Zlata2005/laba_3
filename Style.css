@@ -1,0 +1,280 @@
+﻿body {
+  color:white;
+}
+/*Главная*/
+.the_menu{
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    list-style-type: none;
+    margin: 25px;
+    padding: 0;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+/*Главная*/
+
+/*.wrapper_main {*/
+    /*width: 100%;
+    height: 100%;*/
+
+    /*background-image: url('images/stars_background.svg');
+    background-repeat: repeat-y;
+    background-size: 1920px 1080px;
+    width: 1920px;
+    height: 1080px;
+}*/
+.wrapper_main {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.header_main {
+    background-image: url('images/main_background.svg');
+    /*width: 1920px;
+    height: 1080px;*/
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.text_main {
+    color: white;
+    font-size: 32px;
+   display: flex;
+   flex-direction: column;
+    margin-top: 150px;
+    margin-left: 150px;
+    width:1450px;
+    padding-bottom: 350px;
+}
+/*Звезды*/
+.wrapper_stars {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.header_stars {
+    background-image: url('images/stars_background.svg');
+    /*width: 1920px;
+    height: 1080px;*/
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.text_stars {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 150px;
+    
+    padding-bottom: 15px;
+}
+.table_characteristic_stars {
+    display: flex;
+    justify-content: center;
+
+}
+.characteristic_stars {
+   
+}
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+/*Планеты*/
+.wrapper_planets {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.header_planets {
+    background-image: url('images/planets_background.svg');
+    /*width: 1920px;
+    height: 1080px;*/
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+   
+}
+.text_planet {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+   /* width: 760px;*/
+    padding-bottom: 350px;
+}
+.text_planets {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 100px;
+    /*width: 760px;*/
+}
+.planet_block2 {
+    /* background-color: #182238;*/
+    background-color: #021F4B;
+    /* width:1920px;*/
+    
+}
+
+.anchors_planet {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+}
+.planet {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet_Mercury {
+    display: flex;
+}
+.text_Mercure {
+    display: flex;
+    flex-direction: column;
+}
+.anchors_planet a {
+    text-decoration: none;
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+}
+.heading_planet {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+.text {
+    font-size: 24px;
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+}
+.planet_Venus {
+    display: flex;
+}
+.text_Venus {
+    display: flex;
+    flex-direction: column;
+}
+.planet_Earth {
+    display: flex;
+}
+.text_Earth {
+    display: flex;
+    flex-direction: column;
+}
+.planet_Mars {
+    display: flex;
+}
+.planet_Jupiter{
+    display:flex;
+}
+.planet_Saturn {
+    display: flex;
+}
+.planet_Uranium {
+    display: flex;
+}
+.planet_Neptune {
+    display: flex;
+}
+/*Галактики */
+.wrapper_galaxies {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.header_galaxies {
+    background-image: url('images/galaxies_background.svg');
+    /*width: 1920px;
+    height: 1080px;*/
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.text_galaxies {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 150px;
+    width: 760px;
+   /* padding-bottom: 350px;*/
+}
+.list_galaxies {
+     width: 700px;
+    margin-left: 150px;
+    /*margin-right: 150px;*/
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction:column;
+    padding-bottom:150px;
+}
+/*Черные дыры*/
+.wrapper_black_holes {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.header_black_holes {
+    background-image: url('images/black_holes_background.svg');
+    /*width: 1920px;
+    height: 1080px;*/
+    background-size: auto;
+    background-repeat: no-repeat;
+   
+}
+.text_black_holes {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 150px;
+    width:760px;
+    /*padding-bottom: 350px;*/
+
+}
+.list_black_holes {
+    width: 700px;
+    margin-left: 150px;
+    /*margin-right: 150px;*/
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
